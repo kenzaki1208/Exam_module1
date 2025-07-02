@@ -1,0 +1,23 @@
+h1 {
+    text-align: center;
+}
+
+input {
+    justify-items: center;
+}
+button {
+    justify-items: center;
+}
+.calculate {
+    justify-items: center;
+    margin-top: 20px;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+input[type=number] {
+    -moz-appearance: textfield;
+}
