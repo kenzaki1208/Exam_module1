@@ -15,19 +15,43 @@ class Worker {
         this.#position = position;
     }
 
-    get STT() { return this.#STT; }
-    get fullName() { return this.#fullName; }
-    get dateOfBirth() { return this.#dateOfBirth; }
-    get address() { return this.#address; }
-    get salary() { return this.#salary; }
-    get position() { return this.#position; }
+    get STT() {
+        return this.#STT;
+    }
+    get fullName() {
+        return this.#fullName;
+    }
+    get dateOfBirth() {
+        return this.#dateOfBirth;
+    }
+    get address() {
+        return this.#address;
+    }
+    get salary() {
+        return this.#salary;
+    }
+    get position() {
+        return this.#position;
+    }
 
-    set STT(value) { this.#STT = value; }
-    set fullName(value) { this.#fullName = value; }
-    set dateOfBirth(value) { this.#dateOfBirth = value; }
-    set address(value) { this.#address = value; }
-    set salary(value) { this.#salary = value; }
-    set position(value) { this.#position = value; }
+    set STT(STT) {
+        this.#STT = STT;
+    }
+    set fullName(fullName) {
+        this.#fullName = fullName;
+    }
+    set dateOfBirth(dateOfBirth) {
+        this.#dateOfBirth = dateOfBirth;
+    }
+    set address(address) {
+        this.#address = address;
+    }
+    set salary(salary) {
+        this.#salary = salary;
+    }
+    set position(position) {
+        this.#position = position;
+    }
 
     displayInfo() {
         return `STT: ${this.#STT}, Họ và tên: ${this.#fullName}, Ngày sinh: ${this.#dateOfBirth}, Địa chỉ: ${this.#address}, Lương: ${this.#salary}, Chức vụ: ${this.#position}`;
