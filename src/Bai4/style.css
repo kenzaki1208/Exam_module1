@@ -1,5 +1,4 @@
 #result {
-    align-items: center;
     justify-items: center;
 }
 
@@ -25,4 +24,11 @@ tr:nth-child(even) {
 th {
     background-color: #cdcdcd;
     font-weight: bold;
+}
+
+.input-form {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 20px;
 }
